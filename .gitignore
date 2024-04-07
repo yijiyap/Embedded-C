@@ -1,0 +1,29 @@
+# Compiled files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+
+# Executables
+*.exe
+*.out
+
+# Build directories
+/Debug/
+/Release/
+
+# IDE specific files
+.settings/
+*.launch
+*.project
+
+# Generated files
+/*/Inc/*
+/*/Src/*
+!/*/Inc/*.h
+!/*/Src/*.c
+
+# Dependency files
+.DS_Store
+Thumbs.db
